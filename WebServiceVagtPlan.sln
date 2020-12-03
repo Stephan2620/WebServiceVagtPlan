@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceVagtPlan", "WebServiceVagtPlan.csproj", "{BF09A0E1-6305-4D3F-B1C6-872924DF4C82}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65951ED3-3044-41DC-9D43-1BF5C53528E4} = {65951ED3-3044-41DC-9D43-1BF5C53528E4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VagtPlanProgram", "..\VagtPlanProgram\VagtPlanProgram.csproj", "{65951ED3-3044-41DC-9D43-1BF5C53528E4}"
 EndProject
