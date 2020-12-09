@@ -175,3 +175,4 @@ C:\2sem CODE\WebServiceVagtPlan\obj\Debug\WebServiceVagtPlan.csproj.CoreCompileI
 C:\2sem CODE\WebServiceVagtPlan\obj\Debug\WebServiceVagtPlan.csproj.CopyComplete
 C:\2sem CODE\WebServiceVagtPlan\obj\Debug\WebServiceVagtPlan.dll
 C:\2sem CODE\WebServiceVagtPlan\obj\Debug\WebServiceVagtPlan.pdb
+C:\Users\slore\source\repos\WebServiceVagtPlan\obj\Debug\WebServiceVagtPlan.csprojAssemblyReference.cache

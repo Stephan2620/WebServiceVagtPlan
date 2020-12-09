@@ -9,7 +9,7 @@ namespace WebServiceVagtPlan
     [Table("Medarbejder")]
     public partial class Medarbejder
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int MedarbejderID { get; set; }
 
         [StringLength(30)]
