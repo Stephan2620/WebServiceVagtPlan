@@ -165,6 +165,7 @@
     <Compile Include="Context.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MedarbejdersController.cs" />
+    <Compile Include="Controllers\NyVagtsController.cs" />
     <Compile Include="Controllers\VagtsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="database_firewall_rules.cs" />
@@ -172,6 +173,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Medarbejder.cs" />
+    <Compile Include="NyVagt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vagt.cs" />
     <Compile Include="VagtPlan.cs" />

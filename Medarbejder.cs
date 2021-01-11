@@ -9,7 +9,6 @@ namespace WebServiceVagtPlan
     [Table("Medarbejder")]
     public partial class Medarbejder
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int MedarbejderID { get; set; }
 
         [StringLength(30)]

@@ -8,12 +8,12 @@ namespace WebServiceVagtPlan
     public partial class Context : DbContext
     {
         public Context()
-            : base("name=Context2")
+            : base("name=Context3")
         {
-            base.Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Medarbejder> Medarbejders { get; set; }
+        public virtual DbSet<NyVagt> NyVagts { get; set; }
         public virtual DbSet<Vagt> Vagts { get; set; }
         public virtual DbSet<VagtPlan> VagtPlans { get; set; }
 
@@ -25,6 +25,26 @@ namespace WebServiceVagtPlan
 
             modelBuilder.Entity<Medarbejder>()
                 .Property(e => e.Telefon)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<NyVagt>()
+                .Property(e => e.NyVagtNavn)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<NyVagt>()
+                .Property(e => e.NyVagtAfdeling)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<NyVagt>()
+                .Property(e => e.NyVagtLokation)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<NyVagt>()
+                .Property(e => e.NyVagtTid)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<NyVagt>()
+                .Property(e => e.NyVagtDato)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Vagt>()

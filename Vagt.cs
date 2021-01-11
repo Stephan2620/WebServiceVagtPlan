@@ -9,7 +9,6 @@ namespace WebServiceVagtPlan
     [Table("Vagt")]
     public partial class Vagt
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int VagtID { get; set; }
 
         [StringLength(30)]
